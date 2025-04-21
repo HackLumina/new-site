@@ -16,11 +16,10 @@ cont.style.backgroundColor = "rgb(15, 17, 18)"
 const Home = () => {
 
     return(
-<div className="w-full h-full flex items-center justify-center">
-  <div >
-
-  </div>
+<div className="w-full min-h-screen flex items-center justify-center bg-[url('https://cloud-4ze8a6fmk-hack-club-bot.vercel.app/0bg.jpeg')] bg-cover bg-center bg-no-repeat">
+  <div className="text-white text-6xl"><h1 className="custom-outline">Hacklumina'25</h1></div>
 </div>
+
 
 
     );
