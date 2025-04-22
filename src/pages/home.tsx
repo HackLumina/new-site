@@ -6,6 +6,7 @@ import { useState } from "react";
 import PixelArrow from "@/components/misc/pixelarrow"
 import { motion } from 'framer-motion';
 import Hacklumina from "@/components/sections/hacklumina";
+import Theme from "@/components/sections/theme";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -27,7 +28,7 @@ const Home = () => {
         }
       };
   return (
-    <div className="w-full min-h-screen bg-[url('https://cloud-4ze8a6fmk-hack-club-bot.vercel.app/0bg.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <div className="w-full min-h-screen bg-[url('https://cloud-4ze8a6fmk-hack-club-bot.vercel.app/0bg.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col gap-20">
       <div className="w-full h-screen flex items-center justify-center">
       <div className="h-screen w-full relative flex items-center justify-center text-white text-[1.8rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
   <div className="custom-outline">Hacklumina'25</div>
@@ -50,8 +51,9 @@ const Home = () => {
 
       </div>
 
-      <div className="h-screen flex flex-col items-center justify-center">
+      <div className="h-screen flex gap-32 flex-col items-center justify-center">
         <Hacklumina />
+        <Theme />
       </div>
     </div>
   );
