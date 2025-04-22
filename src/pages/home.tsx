@@ -10,6 +10,7 @@ import Theme from "@/components/sections/theme";
 import Details from "@/components/sections/details";
 import Schedule from "@/components/sections/schedule";
 import Sponsors from "@/components/sections/sponsors";
+import Team from "@/components/sections/team";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -60,6 +61,7 @@ const Home = () => {
         <Details />
         <Schedule />
         <Sponsors />
+        <Team />
       </div>
     </div>
   );
