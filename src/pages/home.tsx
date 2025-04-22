@@ -11,6 +11,7 @@ import Details from "@/components/sections/details";
 import Schedule from "@/components/sections/schedule";
 import Sponsors from "@/components/sections/sponsors";
 import Team from "@/components/sections/team";
+import Footer from "@/components/misc/footer";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -63,6 +64,7 @@ const Home = () => {
         <Sponsors />
         <Team />
       </div>
+    <Footer />
     </div>
   );
 };
