@@ -7,6 +7,7 @@ import PixelArrow from "@/components/misc/pixelarrow"
 import { motion } from 'framer-motion';
 import Hacklumina from "@/components/sections/hacklumina";
 import Theme from "@/components/sections/theme";
+import Details from "@/components/sections/details";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -51,9 +52,10 @@ const Home = () => {
 
       </div>
 
-      <div className="h-screen flex gap-32 flex-col items-center justify-center">
+      <div className="h-full flex gap-32 flex-col items-center justify-center">
         <Hacklumina />
         <Theme />
+        <Details />
       </div>
     </div>
   );
