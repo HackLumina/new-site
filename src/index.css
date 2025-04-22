@@ -1,11 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
-    background: url(https://cloud-4ze8a6fmk-hack-club-bot.vercel.app/0bg.jpeg) no-repeat center center/cover;
-    padding-top: 60rem;
+font-family: "Press Start 2P", serif;
 }
+.custom-outline {
+    -webkit-text-stroke: 3.5px black;  
+    text-shadow: 18px 18px 25px #060606; 
+    color : rgb(246, 240, 219);
+  }
