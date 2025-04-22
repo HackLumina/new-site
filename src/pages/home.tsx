@@ -5,6 +5,7 @@ import { Eye, EyeClosed } from "lucide-react";
 import { useState } from "react";
 import PixelArrow from "@/components/misc/pixelarrow"
 import { motion } from 'framer-motion';
+import Hacklumina from "@/components/sections/hacklumina";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -49,8 +50,8 @@ const Home = () => {
 
       </div>
 
-      <div className="h-screen flex items-center justify-center">
-        <p className="text-4xl text-white">Hello</p>
+      <div className="h-screen flex flex-col items-center justify-center">
+        <Hacklumina />
       </div>
     </div>
   );
