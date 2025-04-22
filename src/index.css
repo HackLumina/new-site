@@ -9,5 +9,6 @@ font-family: "Press Start 2P", serif;
 }
 .custom-outline {
     -webkit-text-stroke: 3.5px black;  
-    text-shadow: 5px 5px 25px #060606; 
+    text-shadow: 18px 18px 25px #060606; 
+    color : rgb(246, 240, 219);
   }
