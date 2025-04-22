@@ -8,6 +8,7 @@ import { motion } from 'framer-motion';
 import Hacklumina from "@/components/sections/hacklumina";
 import Theme from "@/components/sections/theme";
 import Details from "@/components/sections/details";
+import Schedule from "@/components/sections/schedule";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -56,6 +57,7 @@ const Home = () => {
         <Hacklumina />
         <Theme />
         <Details />
+        <Schedule />
       </div>
     </div>
   );
