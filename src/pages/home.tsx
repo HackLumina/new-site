@@ -9,6 +9,7 @@ import Hacklumina from "@/components/sections/hacklumina";
 import Theme from "@/components/sections/theme";
 import Details from "@/components/sections/details";
 import Schedule from "@/components/sections/schedule";
+import Sponsors from "@/components/sections/sponsors";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -58,6 +59,7 @@ const Home = () => {
         <Theme />
         <Details />
         <Schedule />
+        <Sponsors />
       </div>
     </div>
   );
