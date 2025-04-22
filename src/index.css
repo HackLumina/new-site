@@ -12,3 +12,10 @@ font-family: "Press Start 2P", serif;
     text-shadow: 18px 18px 25px #060606; 
     color : rgb(246, 240, 219);
   }
+
+@media (max-width: 800px) {
+
+  .custom-outline{
+    -webkit-text-stroke: 2.5px black; 
+  }
+}

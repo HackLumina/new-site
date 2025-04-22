@@ -5,6 +5,7 @@ import { Eye, EyeClosed } from "lucide-react";
 import { useState } from "react";
 import PixelArrow from "@/components/misc/pixelarrow"
 import { motion } from 'framer-motion';
+import Hacklumina from "@/components/sections/hacklumina";
 function focusInp() {
   const cont = document.getElementById("cont");
   cont.style.backgroundColor = "rgb(8, 8, 8)";
@@ -28,7 +29,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen bg-[url('https://cloud-4ze8a6fmk-hack-club-bot.vercel.app/0bg.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed">
       <div className="w-full h-screen flex items-center justify-center">
-      <div className="h-screen w-full relative flex items-center justify-center text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+      <div className="h-screen w-full relative flex items-center justify-center text-white text-[1.8rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
   <div className="custom-outline">Hacklumina'25</div>
 
   <motion.div 
@@ -49,8 +50,8 @@ const Home = () => {
 
       </div>
 
-      <div className="h-screen flex items-center justify-center">
-        <p className="text-4xl text-white">Hello</p>
+      <div className="h-screen flex flex-col items-center justify-center">
+        <Hacklumina />
       </div>
     </div>
   );
