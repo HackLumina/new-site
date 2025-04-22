@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen bg-[url('https://cloud-4ze8a6fmk-hack-club-bot.vercel.app/0bg.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed">
       <div className="w-full h-screen flex items-center justify-center">
-      <div className="h-screen w-full relative flex items-center justify-center text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+      <div className="h-screen w-full relative flex items-center justify-center text-white text-[1.8rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
   <div className="custom-outline">Hacklumina'25</div>
 
   <motion.div 
