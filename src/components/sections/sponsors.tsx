@@ -15,9 +15,11 @@ const Sponsors = () => {
           Sponsors
         </h2>
         <p className="text-center text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed">
-Amazing people who are making this amazing event possible.
+Amazing people who are making this amazing event possible. aiffw
         </p>
       </div>
+
+
     );
   };
   
